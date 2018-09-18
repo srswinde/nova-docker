@@ -26,4 +26,5 @@ try:
 except:
     SOCIAL_AUTH_GITHUB_KEY    = None
     SOCIAL_AUTH_GITHUB_SECRET = None
-    
+
+ALLOWED_HOSTS=["localhost", "beast"]
